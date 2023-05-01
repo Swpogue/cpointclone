@@ -1,6 +1,32 @@
+@media (max-width: 767px) {
+  .imgtext{
+    display: none;
+  }
+  
+}
+
+.Cabin{
+  font-family: 'Cabin', sans-serif;
+}
+
 
 .bg-img{
   background-image: url("assets/bgimg.png");
   max-height: max-content;
      
+}
+
+@media (min-width: 767px){
+  
+  .bcard{
+    position: absolute;
+    right: 10px;
+    bottom: -150px;
+  }
+}
+
+
+
+.tall{
+  max-height: 500px;
 }
